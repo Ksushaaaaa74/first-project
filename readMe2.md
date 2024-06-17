@@ -1,3 +1,12 @@
+Ниже вы найдёте заготовку для схемы статусов файлов.
+```mermaid
+graph LR;
+  untracked -- "git add" --> staged;
+  staged    -- "???"     --> tracked/comitted;
+
+%% стрелка без текста для примера: 
+  A --> B;
+``` 
 
 # H1
 ## H2
